@@ -37,6 +37,8 @@
         <lombok.version>1.18.18</lombok.version>
         <logback.version>1.3.0-alpha5</logback.version>
         <log4j.version>1.2.17</log4j.version>
+        <guava.version>30.1.1-jre</guava.version>
+        <fastjson.version>1.2.75</fastjson.version>
     </properties>
 
     <dependencyManagement>
@@ -98,6 +100,20 @@
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
+            </dependency>
+
+            <!--goole guava-->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+
+            <!--alibaba fastjson-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
