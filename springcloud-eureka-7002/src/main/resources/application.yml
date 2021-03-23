@@ -1,0 +1,18 @@
+server:
+  port: 7002
+
+#eureka
+eureka:
+  instance:
+    # 给服务起个别名
+    hostname: eurekaB.com
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eurekaA.com:7001/eureka,http://eurekaC.com:7003/eureka
+#Spring
+spring:
+  application:
+    name: springcloud-eureka7002
