@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-consumer-80</artifactId>
+    <artifactId>springcloud-consumer-dept-80</artifactId>
 
     <dependencies>
         <!--ribbon-->

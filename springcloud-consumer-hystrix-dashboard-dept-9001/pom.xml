@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-consumer-hystrix-dashboard-dept-80</artifactId>
+    <artifactId>springcloud-consumer-hystrix-dashboard-dept-9001</artifactId>
     <dependencies>
         <!--hystrix -->
         <dependency>
